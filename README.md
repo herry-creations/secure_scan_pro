@@ -64,21 +64,33 @@ The executable will be in the dist/ folder.
 Note: The .spec file bundles nmap.exe from C:\Program Files (x86)\Nmap\nmap.exe.
 Update the path in SecureScanPro.spec if your Nmap installation is in a different location.
 
+Project Screenshots
+<img width="1365" height="745" alt="image" src="https://github.com/user-attachments/assets/911cea13-3c51-498e-9611-e528dc0fa00a" />
+<img width="1365" height="707" alt="image" src="https://github.com/user-attachments/assets/07537a3e-8dfd-48e8-85af-57968a698457" />
+
+
 📁 Project Structure
+
 SecureScanPro/
 ├── secure_scan_pro.py          # Main application source
+
 ├── SecureScanPro.spec          # PyInstaller build spec
+
 ├── requirements.txt            # Python dependencies
+
 ├── assets/
 │   └── icon.ico                # Application icon
+
 ├── reports_sample/
 │   └── secure_scan_pro_report_*.json   # Example report output
+
 ├── .github/
 │   └── ISSUE_TEMPLATE/
 │       ├── bug_report.md
 │       └── feature_request.md
+
 ├── .gitignore
-├── LICENSE
+
 └── README.md
 
 📄 Report Format
@@ -117,4 +129,5 @@ Commit your changes (git commit -m 'Add my feature')
 Push to the branch (git push origin feature/my-feature)
 Open a Pull Request
 See .github/ISSUE_TEMPLATE/ for bug reports and feature requests.
+
 
